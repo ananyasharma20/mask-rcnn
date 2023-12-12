@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>410297</id>
+      <name>Bikes</name>
+      <size>1</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2023-12-10 20:28:27.667861+00:00</created>
+      <updated>2023-12-11 03:00:58.760379+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>455812</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>https://app.cvat.ai/api/jobs/455352</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>sowmya6</username>
+        <email>sowmyan@umich.edu</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>bike</name>
+          <color>#43e485</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Person</name>
+          <color>#c06060</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>lamp</name>
+          <color>#20c0a0</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>tree</name>
+          <color>#906000</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2023-12-11 03:01:11.510239+00:00</dumped>
+  </meta>
+  <image id="0" name="bike.jpg" width="1600" height="1066">
+    <box label="lamp" source="manual" occluded="0" xtl="75.56" ytl="34.71" xbr="264.21" ybr="648.30" z_order="0">
+    </box>
+    <box label="lamp" source="manual" occluded="0" xtl="1307.50" ytl="307.46" xbr="1445.10" ybr="507.08" z_order="0">
+    </box>
+    <box label="tree" source="manual" occluded="0" xtl="681.51" ytl="1.24" xbr="1328.82" ybr="650.50" z_order="0">
+    </box>
+    <box label="tree" source="manual" occluded="0" xtl="1156.14" ytl="0.00" xbr="1596.27" ybr="673.75" z_order="0">
+    </box>
+    <box label="bike" source="manual" occluded="0" xtl="84.70" ytl="648.30" xbr="634.20" ybr="930.37" z_order="0">
+    </box>
+    <box label="bike" source="manual" occluded="0" xtl="661.70" ytl="662.96" xbr="854.00" ybr="851.61" z_order="0">
+    </box>
+    <box label="bike" source="manual" occluded="0" xtl="1106.76" ytl="644.64" xbr="1397.98" ybr="814.98" z_order="0">
+    </box>
+  </image>
+</annotations>
