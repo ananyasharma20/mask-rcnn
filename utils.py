@@ -14,7 +14,7 @@ import torch.optim as optim
 # https://towardsdatascience.com/understanding-and-implementing-faster-r-cnn-a-step-by-step-guide-11acfff216b0
 # https://github.com/wingedrasengan927/pytorch-tutorials/tree/master/Object%20Detection
 
-# -------------- Data Untils -------------------
+# -------------- Data Utils -------------------
 
 def parse_annotation(annotation_path, image_dir, img_size):
     '''
