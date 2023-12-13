@@ -5,6 +5,9 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from PIL import Image, ImageDraw
 
+# All code in this file was our own implementation
+
+
 image_path = "data/images/bike.jpg"
 image = Image.open(image_path)
 
