@@ -7,6 +7,10 @@ import torch.nn as nn
 
 from utils import *
 
+# We referenced the following code while writing this file: 
+# https://towardsdatascience.com/understanding-and-implementing-faster-r-cnn-a-step-by-step-guide-11acfff216b0
+# https://github.com/wingedrasengan927/pytorch-tutorials/tree/master/Object%20Detection
+
 class FeatureExtractor(nn.Module):
     def __init__(self):
         super().__init__()
