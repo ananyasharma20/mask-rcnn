@@ -2,6 +2,10 @@ import torch
 import torchvision
 from torchvision import ops
 
+# We referenced the following code while writing this file: 
+# https://towardsdatascience.com/understanding-and-implementing-faster-r-cnn-a-step-by-step-guide-11acfff216b0
+# https://github.com/wingedrasengan927/pytorch-tutorials/tree/master/Object%20Detection
+
 def calc_gt_offsets(pos_anc_coords, gt_bbox_mapping):
     pos_anc_coords = ops.box_convert(pos_anc_coords, in_fmt='xyxy', out_fmt='cxcywh')
     gt_bbox_mapping = ops.box_convert(gt_bbox_mapping, in_fmt='xyxy', out_fmt='cxcywh')
