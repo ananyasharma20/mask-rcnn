@@ -9,6 +9,7 @@ from PIL import Image, ImageDraw
 from torchvision.models.detection.image_list import ImageList
 from skimage.measure import find_contours
 
+# All code in this file was our own implementation
 
 class FasterRCNNWithMask(nn.Module):
     def __init__(self, num_classes):
