@@ -20,7 +20,9 @@ from torchvision.models.detection.image_list import ImageList
 from torch.utils.data import DataLoader, Dataset
 from ObjectDetection import ObjectDetectionDataset
 
-
+# We referenced the following code while writing this file: 
+# https://towardsdatascience.com/understanding-and-implementing-faster-r-cnn-a-step-by-step-guide-11acfff216b0
+# https://github.com/wingedrasengan927/pytorch-tutorials/tree/master/Object%20Detection
 
 def project_bboxes(bboxes, width_scale_factor, height_scale_factor, mode='a2p'):
     assert mode in ['a2p', 'p2a']
