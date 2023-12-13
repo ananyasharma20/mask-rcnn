@@ -14,6 +14,10 @@ import torch.nn.functional as F
 from torch.utils.data import DataLoader, Dataset
 from torch.nn.utils.rnn import pad_sequence
 
+# We referenced the following code while writing this file: 
+# https://towardsdatascience.com/understanding-and-implementing-faster-r-cnn-a-step-by-step-guide-11acfff216b0
+# https://github.com/wingedrasengan927/pytorch-tutorials/tree/master/Object%20Detection
+
 class ObjectDetectionDataset(Dataset):
     '''
     A Pytorch Dataset class to load the images and their corresponding annotations.
